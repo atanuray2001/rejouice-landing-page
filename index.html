@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+</head>
+<body>
+    <div id="loader">
+        <h3>Loading</h3>
+        <h3>.</h3>
+        <h3>.</h3>
+    </div>
+
+    <div id="main">
+
+        <!-- page 1 -->
+        <div id="page1">
+            <div class="cursor">Play Reel</div>
+            <video src="resources/RJ-2.0-Video background .mp4" autoplay loop muted></video>
+            <div class="page1_all">
+                <div class="nav">
+                    <h3>The Venture Agency.</h3>
+                    <h3>Menu</h3>
+                </div>
+                <h1 class="page1_head">
+                    <span>r</span><span>e</span><span>j</span><span>o</span><span>u</span><span>i</span><span>c</span><span>e</span>
+                </h1>
+            </div>
+        </div>
+
+        <!-- page 2 -->
+        <div id="page2">
+            <div class="page2_main">
+                <div class="page2_top">
+                    <p class="page2_top_pera">Full-service creative agency.<br>Two engagement models.</p>
+                    <p class="page2_top_pera">Paris & San Diego</p>
+                </div>
+                <div class="page2_bottom">
+                        <div class="page2_para_hide"> <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We are a digital brand accelerator. We</p></div> 
+                        <div class="page2_para_hide"><p>design, develop, and scale market-defining </p></div>
+                        <div class="page2_para_hide"><p>brands by unlocking their hidden potential.</p></div>
+                        <div class="page2_para_hide"><p>Choose full cash compensation or offset up</p></div>
+                        <div class="page2_para_hide"><p>to 50% of our fees for equity in your company.</p></div>
+                        <div class="page2_para_hide"><p>Your vision, your decision.</p></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- page 3 -->
+        <div id="page3">
+            <div class="page3_box">
+                <h1 class="page3_head">M  O  X  i  O  M</h1>
+                <img class="page3_img" src="https://images.unsplash.com/photo-1551021794-03be4ddaf67d?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+                <video loop autoplay muted src="https://prismic-io.s3.amazonaws.com/rejouice/363f6760-3496-4638-8fc5-3b5d7711087c_Website-homepage-Work-03_1.mp4"></video>
+            </div>
+        </div>
+
+        <!-- pagr 4 -->
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1701775834842-7c1cca1a9b39?q=80&w=1498&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1701921188059-daa354b6a91c?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1701921188953-9fea2ed3e0af?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1665610030613-cefaa0d064cd?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+                <div class="swiper-slide"><img src="https://images.unsplash.com/photo-1699528250661-ac409dcc66c7?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt=""></div>
+            </div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js" integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js" integrity="sha512-LQQDtPAueBcmGXKdOBcMkrhrtqM7xR2bVrnMtYZ8ImAZhFlIb5xrMqQ6uZviyeSB+4mYj89ta8niiCIQM1Gj0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
