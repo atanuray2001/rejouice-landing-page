@@ -118,7 +118,7 @@ gsap.from(".page2_para_hide p", {
     start: "-180% 50%",
     end: "-150% 35%",
     scrub: 3,
-    markers: true,
+    // markers: true,
   }
 })
 
